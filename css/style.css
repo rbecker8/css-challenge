@@ -169,6 +169,7 @@ div.form-wrapper {
 	width:15%;
 	margin-left: auto;
 	margin-right: auto;
+	border: 8px groove slategray;
 }
 /****************************
 footer
@@ -177,5 +178,6 @@ footer {
 	background-color:slategray;
 	color:white;
 	text-shadow: 4px 4px 4px #CCCCCC;
+	border: 8px groove slategray;
 
 }

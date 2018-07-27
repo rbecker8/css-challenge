@@ -106,7 +106,7 @@
 
 							<div>
 								<label for="message">Message</label>
-								<textarea name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max"></textarea>
+								<textarea> name="message" id="message" cols="30" rows="10" maxlength="1000" placeholder="1000 characters max" style="margin: 0px; width: 100px; height:141px;"></textarea>
 							</div>
 
 							<button type="reset">Reset</button>

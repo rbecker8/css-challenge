@@ -176,5 +176,6 @@ footer
 footer {
 	background-color:slategray;
 	color:white;
+	text-shadow: 4px 4px 4px #CCCCCC;
 
 }

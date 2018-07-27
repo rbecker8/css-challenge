@@ -61,3 +61,120 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+
+/*****************************************************
+* Global rules
+ ******************************************************/
+body {
+	font-family: monospace,"Monaco";
+	align-items:center;
+}
+
+section {
+	padding: 2.5rem 0;
+}
+
+/*****************************************************
+* Header Rules
+ ******************************************************/
+
+header {
+	background-color:  slategray;
+	color: white;
+	text-align:center;
+	padding:1.50rem;
+	border: 10px groove slategray;
+	text-shadow: 4px 4px 4px #CCCCCC;
+}
+
+/*****************************************************
+* Welcome Styles
+ ******************************************************/
+img[alt="welcome to my homepage"] {
+	display:block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border : 10px groove slategray;
+	padding: 20px;
+	background-color:slategray;
+}
+
+.instructions-wrapper img{
+	width: 250px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2{
+	margin-top: 0
+}
+/***************************
+about me
+****************************/
+section.about-me{
+	color: black;
+	text-align:center;
+}
+
+.about-me img {
+	border: 8px groove slategray;
+
+}
+
+.about-me p span {
+	color: white;
+	font-style: italic;
+
+}
+
+.about-me p {
+	background-color:slategray;
+	padding:1.50rem 0;
+	border: 8px groove slategray;
+}
+
+div.container {
+	text-align:center;
+
+}
+/****************************
+SKILLZ
+*****************************/
+tr:nth-child(odd) {
+	background-color: slategray;
+	color:white;
+
+}
+
+section:nth-child(4) table {
+	border: 10px groove slategray;
+	margin-left: auto;
+	margin-right: auto
+}
+
+/****************************
+contact me
+*****************************/
+div.form-wrapper {
+	background-color:slategray;
+	padding:15px;
+	color:white;
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+/****************************
+footer
+*****************************/
+footer {
+	background-color:slategray;
+	color:white;
+
+}

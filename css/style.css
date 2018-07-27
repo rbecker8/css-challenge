@@ -62,48 +62,55 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+
 /*****************************************************
-* Global rules
- ******************************************************/
+* global styles
+******************************************************/
 body {
-	font-family: monospace,"Monaco";
-	align-items:center;
+	font-family: monospace, "Monaco";
 }
 
 section {
-	padding: 2.5rem 0;
+	padding: 2.75rem 0;
 }
 
 /*****************************************************
-* Header Rules
- ******************************************************/
-
+* header styles
+******************************************************/
 header {
-	background-color:  slategray;
-	color: white;
-	text-align:center;
-	padding:1.50rem;
-	border: 10px groove slategray;
-	text-shadow: 4px 4px 4px #CCCCCC;
+	background-color: #333;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	margin-right: 2rem;
+	font-size: 2.5rem;
+}
+
+@media only screen and (min-width: 500px) {
+	header {
+		background-color: lime;
+		color: #333333;
+	}
 }
 
 /*****************************************************
-* Welcome Styles
- ******************************************************/
+* welcome styles
+******************************************************/
 img[alt="welcome to my homepage"] {
-	display:block;
+	display: block;
 	margin: 0 auto 2rem;
 }
 
 .instructions-wrapper {
 	display: flex;
 	align-items: flex-start;
-	border : 10px groove slategray;
+	border: 3px solid black;
 	padding: 20px;
-	background-color:slategray;
 }
 
-.instructions-wrapper img{
+.instructions-wrapper img {
 	width: 250px;
 }
 
@@ -112,72 +119,26 @@ img[alt="welcome to my homepage"] {
 	padding-right: 2rem;
 }
 
-.instructions-content h2{
-	margin-top: 0
+.instructions-content h2 {
+	margin-top: 0;
 }
-/***************************
-about me
-****************************/
-section.about-me{
-	color: black;
-	text-align:center;
+
+/*****************************************************
+* about me styles
+******************************************************/
+section.about-me {
+	background-color: blue;
+	color: #fff;
 }
 
 .about-me img {
-	border: 8px groove slategray;
-
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
 }
 
 .about-me p span {
-	color: white;
-	font-weight: bold;
-
-}
-
-.about-me p {
-	background-color:slategray;
-	padding:1.50rem 0;
-	border: 8px groove slategray;
-}
-
-div.container {
-	text-align:center;
-
-}
-/****************************
-SKILLZ
-*****************************/
-tr:nth-child(odd) {
-	background-color: slategray;
-	color:white;
-
-}
-
-section:nth-child(4) table {
-	border: 10px groove slategray;
-	margin-left: auto;
-	margin-right: auto
-}
-
-/****************************
-contact me
-*****************************/
-div.form-wrapper {
-	background-color:slategray;
-	padding:15px;
-	color:white;
-	width: 15%;
-	margin-left: auto;
-	margin-right: auto;
-	border: 8px groove slategray;
-}
-/****************************
-footer
-*****************************/
-footer {
-	background-color:slategray;
-	color:white;
-	text-shadow: 4px 4px 4px #CCCCCC;
-	border: 8px groove slategray;
-
+	color: yellow;
+	font-style: italic;
 }
